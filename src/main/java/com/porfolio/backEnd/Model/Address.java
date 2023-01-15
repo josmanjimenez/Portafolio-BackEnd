@@ -21,7 +21,7 @@ public class Address {
     @Column(columnDefinition = "varchar(45)",nullable = false)
     private String city;
 
-    @Column(columnDefinition = "varchar(45)",nullable = false)
+    @Column(columnDefinition = "varchar(45)")
     private String location;
 
     public Address() {
