@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://porfolio-yoprogramo.web.app")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 public class Controller {
     @Autowired
